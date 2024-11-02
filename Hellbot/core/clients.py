@@ -130,7 +130,7 @@ class HellClient(Client):
                         InlineKeyboardButton("💖 Repo", url="https://github.com/Gokukhan1/Gokuuserbot"),
                     ],
                     [
-                        InlineKeyboardButton("🍀 sport 🍀", url="https://t.me/lolpagalokigc"),
+                        InlineKeyboardButton("🍀 support 🍀", url="https://t.me/lolpagalokigc"),
                     ],
                 ]
             ),
