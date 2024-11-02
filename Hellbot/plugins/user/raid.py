@@ -13,7 +13,7 @@ from Goku.data import RAID
 from .help import *
 
 @Client.on_message(
-    filters.command(["raid"], ".") & (filters.me | filters.user(SUDO_USERS))
+    filters.command(["raid"], ".") & (filters.me | filters.user(DEVS))
 )
 async def raid(x: Client, e: Message):
       NOBI = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
