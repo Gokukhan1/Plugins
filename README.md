@@ -1,4 +1,4 @@
-# HellBot v3 Plugins
+# USERBOT v3 Plugins
 
 # Follow this format to make your own plugin for HellBot.
 
@@ -13,7 +13,7 @@ from . import on_message, hellbot, HelpMenu
 @on_message("hii")
 async def hi(_, message):
     # command body
-    await hellbot.edit(message, "Hello!")
+    await userbot.edit(message, "Hello!")
 
 
 # to display in help menu
@@ -48,3 +48,10 @@ HelpMenu("hii").add(
 
 
 ## To get more functions read codes in repo.
+
+
+<h3 align="center">
+    ─「 𝑪𝒓𝒆𝒅𝒊𝒕 」─
+</h3>
+
+✧ <b>[GOKU](https://t.me/xeno_kakarot).
