@@ -127,7 +127,7 @@ class HellClient(Client):
                 [
                     [
                         InlineKeyboardButton("💫 Start Me", url=f"https://t.me/{self.bot.me.username}?start=start"),
-                        InlineKeyboardButton("💖 Repo", url="https://github.com/Gokukhan1/gokuuserbot"),
+                        InlineKeyboardButton("💖 Repo", url="https://github.com/Gokukhan1/Gokuuserbot"),
                     ],
                     [
                         InlineKeyboardButton("🍀 sport 🍀", url="https://t.me/lolpagalokigc"),
