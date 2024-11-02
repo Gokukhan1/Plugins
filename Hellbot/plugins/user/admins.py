@@ -463,14 +463,14 @@ HelpMenu("admin").add(
     "promote",
     "<𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾/𝗂𝖽/reply> <𝗍𝗂𝗍𝗅𝖾>",
     "Promote a user to admin.",
-    "promote @ForGo10God hellboy",
+    "promote @xeno_kakarot",
 ).add(
     "demote", "<username/id/reply>", "Demote a user from admin.", "demote @ForGo10God"
 ).add(
     "ban",
     "<username/id/reply> <reason>",
     "Ban a user from the group.",
-    "ban @ForGo10God",
+    "ban @xeno_kakarot",
     "You can also use dban to delete the message of the user.",
 ).add(
     "unban", "<username/id/reply>", "Unban a user from the group.", "unban @ForGo10God"
@@ -478,13 +478,13 @@ HelpMenu("admin").add(
     "kick",
     "<username/id/reply> <reason>",
     "Kick a user from the group.",
-    "kick @ForGo10God",
+    "kick @xeno_kakarot",
     "You can also use dkick to delete the message of the user.",
 ).add(
     "mute",
     "<username/id/reply> <reason>",
     "Mute a user in the group",
-    "mute @ForGo10God",
+    "mute @xeno_kakarot",
     "You can also use dmute to delete the message of the user.",
 ).add(
     "unmute", "<username/id/reply>", "Unmute a user in the group.", "unmute @ForGo10God"
@@ -492,13 +492,13 @@ HelpMenu("admin").add(
     "dmute",
     "<username/id/reply>",
     "Mute a user by deleting their new messages in the group.",
-    "dmute @ForGo10God",
+    "dmute @xeno_kakarot",
     "Need delete message permission for proper functioning.",
 ).add(
     "undmute",
     "<username/id/reply>",
     "Unmute a user who's muted using 'dmute' command in the group.",
-    "undmute @ForGo10God",
+    "undmute @xeno_kakarot",
 ).add(
     "pin", "<reply>", "Pin the replied message in the group."
 ).add(
