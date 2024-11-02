@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, hellbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @Its_HellBot",
+            "You are not authorized to use this bot. \n\n</> @xeno_kakarot",
             show_alert=True,
         )
         return False
@@ -245,15 +245,15 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("🚀 Deploy", url="https://github.com/The-HellBot/HellBot"),
-                InlineKeyboardButton("Plugins 📂", url="https://github.com/The-HellBot/Plugins"),
+                InlineKeyboardButton("🚀 Deploy", url="https://github.com/Gokukhan1/Gokuuserbot"),
+                InlineKeyboardButton("Plugins 📂", url="https://github.com/Gokukhan1/Plugins"),
             ],
             [
-                InlineKeyboardButton("нєℓℓвσт ηєтωσяк 🇮🇳", url="https://t.me/HellBot_Networks"),
+                InlineKeyboardButton("network", url="https://t.me/addlist/dor9owflj59jNzll"),
             ],
             [
-                InlineKeyboardButton("🎙️ Support", url="https://t.me/HellBot_Chats"),
-                InlineKeyboardButton("Updates 📣", url="https://t.me/Its_HellBot"),
+                InlineKeyboardButton("🎙️ Support", url="https://t.me/mlohvdryj"),
+                InlineKeyboardButton("Updates 📣", url="https://t.me/lolpagalokigc"),
             ],
             [
                 InlineKeyboardButton("🔙", "help_data:start"),
@@ -266,7 +266,7 @@ async def help_close_cb(_, cb: CallbackQuery):
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-            "**❤️ @HellBot_Networks 🇮🇳**",
+            "**❤️ @xeno_kakarot 🇮🇳**",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
